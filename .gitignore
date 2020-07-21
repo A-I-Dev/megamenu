@@ -1,0 +1,7 @@
+dist/css/
+dist/img/
+dist/index.html
+node_modules/
+scss/
+package.json
+package-lock.json
