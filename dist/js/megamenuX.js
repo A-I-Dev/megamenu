@@ -141,7 +141,7 @@
                     ``
                 }
                 ${child.mega ? 
-                    `<ul class="mm-sub-menu">
+                    `<ul class="mm-sub-menu ${child.withImages ? 'with-images' : ''}">
                                     ${prepareSubMenus(child.children)}
                                 </ul>` : 
                     ``
